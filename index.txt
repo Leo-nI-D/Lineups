@@ -1,0 +1,17 @@
+    <!-- <footer class="footer">
+        <h2>Resources: </h2>
+            <ul class="res-list">
+                <li class="res-item">
+                    <a href="https://valorant-hq.com/sova/ascent/" class="res-link">Ascent</a>
+                </li>
+                <li class="res-item">
+                    <a href="https://valorant-hq.com/sova/bind/" class="res-link">Bind</a>
+                </li>
+                <li class="res-item">
+                    <a href="https://valorant-hq.com/sova/haven/" class="res-link">Haven</a>
+                </li>
+                <li class="res-item">
+                    <a href="https://valorant-hq.com/sova/split/" class="res-link">Split</a>
+                </li>
+            </ul>
+    </footer> -->

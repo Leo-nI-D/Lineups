@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.sova {
+  visibility: hidden;
+}
+.sova h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.sova video {
+  width: 480px;
+  height: 280px;
+}
+.sova .atackers ul {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.checkbox-sova {
+  display: none;
+}
