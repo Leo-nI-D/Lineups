@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul {
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+html {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(77, 77, 237, 1) 44%, rgba(255, 255, 255, 1) 99%);
+    font-family: "Roboto", sans-serif;
+}
+.bg-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.bg-img::before {
+    content: url("../img/sova.png");
+}
+
+
+h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    .blue{
+        color: rgb(6, 23, 121);
+    }
+    .light-blue{
+        color: rgb(25, 74, 235);
+    }
+    .white{
+        color: rgba(255, 255, 255, 1);
+    }
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(6, 66, 122);
+    font-weight: 700;
+}
+h3{
+    margin-left: 30px;
+    color: #fff;
+}
+video {
+    width: 480px;
+    height: 280px;
+}
+ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
