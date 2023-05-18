@@ -24,24 +24,3 @@ a {
   max-width: 100%;
   margin: 0 auto;
 }
-
-label {
-  cursor: pointer;
-}
-
-.sova {
-  visibility: hidden;
-}
-.sova h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-.sova h2 a {
-  color: rgb(24, 8, 167);
-}
-
-.checkbox-sova,
-.checkbox-brimmy,
-.checkbox-viper {
-  display: none;
-}
